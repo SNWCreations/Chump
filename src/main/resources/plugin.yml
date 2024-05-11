@@ -1,0 +1,4 @@
+name: Chump
+version: '${version}'
+main: snw.chump.Chump
+api-version: '1.20'
