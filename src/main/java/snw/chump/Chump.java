@@ -76,12 +76,12 @@ public final class Chump extends JavaPlugin implements Listener {
         if (to == null)  {
             return;
         }
-        final Location from = event.getFrom();
-        if (Double.doubleToLongBits(from.getX()) == Double.doubleToLongBits(to.getX()) &&
-            Double.doubleToLongBits(from.getY()) == Double.doubleToLongBits(to.getY()) &&
-            Double.doubleToLongBits(from.getZ()) == Double.doubleToLongBits(to.getZ())) {
-            return;
-        }
+//        final Location from = event.getFrom();
+//        if (Double.doubleToLongBits(from.getX()) == Double.doubleToLongBits(to.getX()) &&
+//            Double.doubleToLongBits(from.getY()) == Double.doubleToLongBits(to.getY()) &&
+//            Double.doubleToLongBits(from.getZ()) == Double.doubleToLongBits(to.getZ())) {
+//            return;
+//        }
         if (player.getScoreboardTags().contains("wanjia")) {
             if (red) {
                 final UUID uuid = player.getUniqueId();
